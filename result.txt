@@ -1,0 +1,4824 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A B 
+student #1=> courses: B C 
+student #2=> courses: C D 
+student #3=> courses: A D 
+2 rooms, 2 timeslices
+schedule found:
+room #0 | A || B |
+room #1 | C || D |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A B 
+student #1=> courses: B C 
+student #2=> courses: C D 
+student #3=> courses: A C 
+2 rooms, 2 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || D || F || E || I || J || C || G || H ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || D || F || E || I || J || C || G || H |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || D || F || E || I || J || C || G |
+room #1 | H ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || D || F || E || I || J || C |
+room #1 | H || G ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || D || F || E || I || J |
+room #1 | H || C || G ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || D || F || E || I |
+room #1 | J || C || H || G ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || D || F || E |
+room #1 | I || C || G || J |
+room #2 | H ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 158009
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | J || G || H || A || I || C || D || E || F ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | J || G || H || A || I || C || D || E || F |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | J || G || H || A || I || C || D || F |
+room #1 | E ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | J || G || H || A || I || C || D |
+room #1 | E || F ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | J || G || H || A || I || D |
+room #1 | E || C || F ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | J || G || H || A || I |
+room #1 | E || C || F || D ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 14001
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | G || J || H || A |
+room #1 | C || E || I || D |
+room #2 | F ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 60004
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | F || J || A || D || E || C || I ||   ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | F || J || A || D || E || C || I ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | F || J || A || D || E || C || I ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | F || J || A || D || E || C || I |
+room #1 |   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | F || J || A || D || E || C |
+room #1 | I ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | F || J || A || D || E |
+room #1 | C || I ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | F || J || A || D |
+room #1 | E || C || I ||   |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | F || J || A |
+room #1 | E || D || I |
+room #2 | C ||   ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | I || A || E || F || H || B || J || C || D || G |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | I || A || E || F || H || B || C || D || G |
+room #1 | J ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | I || A || E || F || H || B || C || D |
+room #1 | J || G ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | I || A || E || F || H || B || C |
+room #1 | J || D || G ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | I || A || E || F || H || B |
+room #1 | J || C || D || G ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | I || A || E || F || H |
+room #1 | J || C || B || G || D |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 70004
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || E || I || F |
+room #1 | C || H || J || B |
+room #2 | G || D ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 383022
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || F || I || B || C || G || H || J || E ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || F || I || B || C || G || H || J || E |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || F || I || B || C || G || H || J |
+room #1 | E ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || F || I || B || C || H || J |
+room #1 | E || G ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || F || I || B || C || H |
+room #1 | E || G || J ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || F || I || B || C |
+room #1 | E || G || H || J ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || F || I || B |
+room #1 | G || C || H || J |
+room #2 | E ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 79005
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | B || F || C || D || E || G || J || I ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | B || F || C || D || E || G || J || I ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | B || F || C || D || E || G || J || I |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | B || F || C || D || E || G || J |
+room #1 | I ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | B || F || C || D || E || J |
+room #1 | I || G ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | B || F || C || D || E |
+room #1 | I || G || J ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | B || F || C || D |
+room #1 | I || G || J || E |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 32002
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | C || A || B || G || I || D || E || J ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | C || A || B || G || I || D || E || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | C || A || B || G || I || D || E || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | C || A || B || G || I || D || E |
+room #1 | J ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | C || A || B || G || I || D |
+room #1 | E || J ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | C || A || B || G || I |
+room #1 | E || J || D ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | C || A || B || G |
+room #1 | E || J || I || D |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 5000
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | A || B || C |
+room #1 | G || I || E |
+room #2 | J || D ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | J || C || E || G || I || D || H ||   ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | J || C || E || G || I || D || H ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | J || C || E || G || I || D || H ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | J || C || E || G || I || D || H |
+room #1 |   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | J || C || E || G || I || D |
+room #1 | H ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | J || C || E || G || I |
+room #1 | D || H ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | J || C || E || G |
+room #1 | H || I || D ||   |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | J || C || E |
+room #1 | D || I || G |
+room #2 | H ||   ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | E || I || B || C || F || G || H || J ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | E || I || B || C || F || G || H || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | E || I || B || C || F || G || H || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | E || I || B || C || F || G || H |
+room #1 | J ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | E || I || B || C || G || H |
+room #1 | J || F ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | E || I || B || C || G |
+room #1 | J || F || H ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | E || I || B || C |
+room #1 | J || F || G || H |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 46003
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | E || F || A || B || H || C || I || J || G ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | E || F || A || B || H || C || I || J || G |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | E || F || A || B || H || C || I || J |
+room #1 | G ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | E || F || A || B || H || C || I |
+room #1 | G || J ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | E || F || A || B || H || C |
+room #1 | I || J || G ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | E || F || A || B || H |
+room #1 | I || C || G || J ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | E || F || A || B |
+room #1 | I || C || J || H |
+room #2 | G ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 190010
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+total duration : 4015230
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A B 
+student #1=> courses: B C 
+student #2=> courses: C D 
+student #3=> courses: A D 
+2 rooms, 2 timeslices
+schedule found:
+room #0 | D || C |
+room #1 | B || A |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: A B 
+student #1=> courses: B C 
+student #2=> courses: C D 
+student #3=> courses: A C 
+2 rooms, 2 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | H || G || C || J || I || E || F || D || A ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | H || G || C || J || I || E || F || D || A |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | H || G || C || J || I || E || F || D |
+room #1 | A ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | H || G || C || J || I || E || F |
+room #1 | A || D ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | H || G || C || J || I || E |
+room #1 | A || F || D ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | H || G || C || J || I |
+room #1 | F || E || D || A ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | H || G || C || J |
+room #1 | I || F || D || E |
+room #2 | A ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 157009
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | F || E || D || C || I || A || H || G || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | F || E || D || C || I || A || H || G || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | F || E || D || C || I || A || H || J |
+room #1 | G ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | F || E || D || C || I || A || H |
+room #1 | G || J ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | F || E || D || C || I || H |
+room #1 | G || J || A ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | F || E || D || C || I |
+room #1 | H || J || A || G ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | F || E || D || I |
+room #1 | C || J || A || H |
+room #2 | G ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 60003
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | I || C || E || D || A || J || F ||   ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | I || C || E || D || A || J || F ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | I || C || E || D || A || J || F ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | I || C || E || D || A || J || F |
+room #1 |   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | I || C || E || D || A || J |
+room #1 | F ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | I || C || E || D || A |
+room #1 | J || F ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | I || C || E || D |
+room #1 | A || J || F ||   |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | I || C || E |
+room #1 | D || A || F |
+room #2 | J ||   ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | G || D || C || J || B || H || F || E || A || I |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | G || D || C || J || B || H || F || E || I |
+room #1 | A ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | G || D || C || J || B || H || F || I |
+room #1 | E || A ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | G || D || C || J || B || H || I |
+room #1 | F || E || A ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | G || D || C || J || B || H |
+room #1 | F || E || A || I ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | G || D || C || J || B |
+room #1 | F || H || A || I || E |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | G || D || C || J |
+room #1 | B || H || A || I |
+room #2 | F || E ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 382022
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | E || J || H || G || C || B || I || F || A ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | E || J || H || G || C || B || I || F || A |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | E || J || H || G || C || B || I || F |
+room #1 | A ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | E || J || H || G || C || B || F |
+room #1 | A || I ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | E || J || H || G || C || F |
+room #1 | A || B || I ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | E || J || H || G || C |
+room #1 | A || B || I || F ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | E || J || H || C |
+room #1 | G || B || I || F |
+room #2 | A ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 92005
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | I || J || G || E || D || C || F || B ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | I || J || G || E || D || C || F || B ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | I || J || G || E || D || C || F || B |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | I || J || G || E || D || C || F |
+room #1 | B ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | I || J || G || E || D || F |
+room #1 | B || C ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | I || J || G || E || D |
+room #1 | B || C || F ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | I || J || G || E |
+room #1 | B || C || F || D |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 31001
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | J || E || D || I || G || B || A || C ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | J || E || D || I || G || B || A || C ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | J || E || D || I || G || B || A || C |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | J || E || D || I || G || B || A |
+room #1 | C ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | J || E || D || I || G || B |
+room #1 | A || C ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | J || E || D || I || G |
+room #1 | A || C || B ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | J || E || D || I |
+room #1 | A || C || G || B |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | J || E || B |
+room #1 | D || G || C |
+room #2 | I || A ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | H || D || I || G || E || C || J ||   ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | H || D || I || G || E || C || J ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | H || D || I || G || E || C || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | H || D || I || G || E || C || J |
+room #1 |   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | H || D || I || G || E || C |
+room #1 | J ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | H || D || I || G || E |
+room #1 | C || J ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | H || D || I || G |
+room #1 | J || E || C ||   |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | H || D || G |
+room #1 | I || J || E |
+room #2 | C ||   ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | J || H || G || F || C || B || I || E ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | J || H || G || F || C || B || I || E ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | J || H || G || F || C || B || I || E |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | J || H || G || F || C || B || I |
+room #1 | E ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | J || H || G || F || C || I |
+room #1 | E || B ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | J || H || G || F || I |
+room #1 | E || C || B ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | J || H || G || F |
+room #1 | E || C || B || I |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 47003
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | G || J || I || C || H || B || A || F || E ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | G || J || I || C || H || B || A || F || E |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | G || J || I || C || H || B || A || F |
+room #1 | E ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | G || J || I || C || H || B || A |
+room #1 | E || F ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | G || J || I || C || H || B |
+room #1 | A || F || E ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | G || J || I || C || H |
+room #1 | A || B || E || F ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | G || J || I || H |
+room #1 | C || A || E || B |
+room #2 | F ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 194011
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+total duration : 3839220
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A B 
+student #1=> courses: B C 
+student #2=> courses: C D 
+student #3=> courses: A D 
+2 rooms, 2 timeslices
+schedule found:
+room #0 | A || B |
+room #1 | C || D |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A B 
+student #1=> courses: B C 
+student #2=> courses: C D 
+student #3=> courses: A C 
+2 rooms, 2 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || C || D || E || F || G || H || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || C || D || E || F || G || H || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || C || D || E || F || G || H || I |
+room #1 | J ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || C || D || E || F || G || H |
+room #1 | I || J ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || C || D || E || F || G |
+room #1 | I || J || H ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || C || D || E || F |
+room #1 | H || I || G || J ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || C || D || E |
+room #1 | H || F || G || I |
+room #2 | J ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 152009
+student preferences:
+student #0=> courses: E H 
+student #1=> courses: A C G 
+student #2=> courses: D F I J 
+student #3=> courses: A F 
+student #4=> courses: A D E 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || C || D || E || F || G || H || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || C || D || E || F || G || H || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || C || D || E || G || H || I || J |
+room #1 | F ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || C || D || E || G || H || J |
+room #1 | F || I ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1001
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || C || D || E || H || J |
+room #1 | F || G || I ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || C || D || E || H |
+room #1 | F || G || I || J ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || C || E || H |
+room #1 | D || G || J || I |
+room #2 | F ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 58003
+student preferences:
+student #0=> courses: F I J 
+student #1=> courses: E G 
+student #2=> courses: A C H J 
+student #3=> courses: D G H J 
+student #4=> courses: C H J 
+student #5=> courses: A G I 
+student #6=> courses: E H 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || C || D || E || F || I || J ||   ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || C || D || E || F || I || J ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || C || D || E || F || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || C || D || E || F || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || C || D || E || F || J |
+room #1 | I ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || C || D || E || F |
+room #1 | I || J ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || C || D || E |
+room #1 | I || F || J ||   |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E I 
+student #2=> courses: A F J 
+student #3=> courses: E J 
+student #4=> courses: A J 
+student #5=> courses: D F 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | A || C || E |
+room #1 | D || J || F |
+room #2 | I ||   ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || B || C || D || E || F || G || H || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || B || C || D || E || F || H || I || J |
+room #1 | G ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || B || C || D || E || F || H || I |
+room #1 | G || J ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || B || C || D || E || F || I |
+room #1 | G || J || H ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || B || C || D || E || I |
+room #1 | G || F || H || J ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || B || C || D || I |
+room #1 | G || E || F || H || J |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 5000
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || B || E || I |
+room #1 | C || D || H || J |
+room #2 | G || F ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 366021
+student preferences:
+student #0=> courses: A E F J 
+student #1=> courses: A B H I 
+student #2=> courses: G H I 
+student #3=> courses: C D I 
+student #4=> courses: E F I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || B || C || E || F || G || H || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || B || C || E || F || G || H || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || B || C || E || F || H || I || J |
+room #1 | G ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || B || C || E || F || H || I |
+room #1 | G || J ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || B || C || E || F || I |
+room #1 | G || H || J ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || B || C || E || F |
+room #1 | G || H || J || I ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || B || C || H |
+room #1 | E || F || J || I |
+room #2 | G ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 89005
+student preferences:
+student #0=> courses: E F 
+student #1=> courses: B C 
+student #2=> courses: A F I 
+student #3=> courses: F H J 
+student #4=> courses: B C G I 
+student #5=> courses: A B C 
+student #6=> courses: A H J 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | B || C || D || E || F || G || I || J ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | B || C || D || E || F || G || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | B || C || D || E || F || G || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | B || C || D || E || F || G || J |
+room #1 | I ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | B || C || D || E || F || G |
+room #1 | I || J ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | B || C || D || E || F |
+room #1 | I || G || J ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | B || C || D || E |
+room #1 | I || G || F || J |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 30002
+student preferences:
+student #0=> courses: D I 
+student #1=> courses: B D G 
+student #2=> courses: B E F 
+student #3=> courses: B F J 
+student #4=> courses: B C E F 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || B || C || D || E || G || I || J ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || B || C || D || E || G || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || B || C || D || E || G || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || B || C || D || E || G || I |
+room #1 | J ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 1000
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || B || C || D || E || G |
+room #1 | J || I ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || B || C || D || E |
+room #1 | G || I || J ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || B || C || D |
+room #1 | E || I || J || G |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: B J 
+student #1=> courses: B G 
+student #2=> courses: C G I 
+student #3=> courses: A C D 
+student #4=> courses: B E J 
+student #5=> courses: A I 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | A || B || C |
+room #1 | E || D || J |
+room #2 | G || I ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | C || D || E || G || H || I || J ||   ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | C || D || E || G || H || I || J ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | C || D || E || G || H || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | C || D || E || G || H || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | C || D || E || G || H || J |
+room #1 | I ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | C || D || E || G || H |
+room #1 | I || J ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | C || D || E || H |
+room #1 | I || J || G ||   |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: C D 
+student #1=> courses: E H 
+student #2=> courses: E I J 
+student #3=> courses: C G J 
+student #4=> courses: E I 
+10 rooms, 3 timeslices
+schedule found:
+room #0 | C || D || E |
+room #1 | H || J || G |
+room #2 | I ||   ||   |
+room #3 |   ||   ||   |
+room #4 |   ||   ||   |
+room #5 |   ||   ||   |
+room #6 |   ||   ||   |
+room #7 |   ||   ||   |
+room #8 |   ||   ||   |
+room #9 |   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | B || C || E || F || G || H || I || J ||   ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | B || C || E || F || G || H || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | B || C || E || F || G || H || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | B || C || E || F || G || H || I |
+room #1 | J ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | B || C || E || F || G || I |
+room #1 | J || H ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | B || C || E || F || G |
+room #1 | I || H || J ||   ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | B || C || E || F |
+room #1 | G || H || J || I |
+room #2 |   ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 44003
+student preferences:
+student #0=> courses: E H I 
+student #1=> courses: E G I 
+student #2=> courses: C I J 
+student #3=> courses: B E F 
+student #4=> courses: E H I 
+student #5=> courses: H I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 10 timeslices
+schedule found:
+room #0 | A || B || C || E || F || G || H || I || J ||   |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 9 timeslices
+schedule found:
+room #0 | A || B || C || E || F || G || H || I || J |
+room #1 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 8 timeslices
+schedule found:
+room #0 | A || B || C || E || F || G || H || I |
+room #1 | J ||   ||   ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 7 timeslices
+schedule found:
+room #0 | A || B || C || E || F || G || H |
+room #1 | I || J ||   ||   ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 6 timeslices
+schedule found:
+room #0 | A || B || C || E || F || G |
+room #1 | I || J || H ||   ||   ||   |
+room #2 |   ||   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 5 timeslices
+schedule found:
+room #0 | A || B || C || E || F |
+room #1 | G || J || H || I ||   |
+room #2 |   ||   ||   ||   ||   |
+room #3 |   ||   ||   ||   ||   |
+room #4 |   ||   ||   ||   ||   |
+room #5 |   ||   ||   ||   ||   |
+room #6 |   ||   ||   ||   ||   |
+room #7 |   ||   ||   ||   ||   |
+room #8 |   ||   ||   ||   ||   |
+room #9 |   ||   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 0
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 4 timeslices
+schedule found:
+room #0 | A || B || C || E |
+room #1 | G || H || F || I |
+room #2 | J ||   ||   ||   |
+room #3 |   ||   ||   ||   |
+room #4 |   ||   ||   ||   |
+room #5 |   ||   ||   ||   |
+room #6 |   ||   ||   ||   |
+room #7 |   ||   ||   ||   |
+room #8 |   ||   ||   ||   |
+room #9 |   ||   ||   ||   |
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+simple build duration : 186010
+student preferences:
+student #0=> courses: A E F H 
+student #1=> courses: B G 
+student #2=> courses: B F I 
+student #3=> courses: C E J 
+student #4=> courses: F I 
+10 rooms, 3 timeslices
+no schedule found
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+total duration : 3740214

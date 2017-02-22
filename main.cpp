@@ -1,11 +1,15 @@
 
 
-#include <map>
+#include <vector>
 #include <set>
+#include <map>
+#include <map>
 #include <iostream>
 #include <random>
 #include <cassert>
 #include <string>
+#include <algorithm>
+#include <chrono>
 
 #define POSTCONDITION(c) assert(c)
 
@@ -22,8 +26,9 @@ struct Scheduler
     using Reservation = pair<Room,Timeslice>;
     using Schedule = map<Reservation,Course>;
 
-    Scheduler(Preferences&& preferences_, Room max_rooms_, Timeslice max_timeslice_,bool option_check_forbidden_):
+    Scheduler(Preferences&& preferences_, Room max_rooms_, Timeslice max_timeslice_,bool option_check_forbidden_,int option_order_courses_):
         option_check_forbidden(option_check_forbidden_),
+        option_order_courses(option_order_courses_),
         preferences(preferences_),
         max_rooms(max_rooms_),
         max_timeslice(max_timeslice_)
@@ -32,11 +37,34 @@ struct Scheduler
             for(const auto& c : s.second)
             {
                 auto& forbid=all_courses[c];
-                if (option_check_forbidden)
+                {
                     for(const auto& c1 : s.second)
                         if (c!=c1)
                             forbid.insert(c1);
+                }
             }
+        for(const auto& c: all_courses)
+        {
+            ordered_courses.push_back(c.first);
+        }
+        if (option_order_courses)
+        {
+            // stable sort prevent unexpected changes to test result
+            stable_sort(ordered_courses.begin(),ordered_courses.end(),[this](Course a,Course b)
+            {
+                return (all_courses[a].size()>all_courses[b].size()) == (option_order_courses==1);
+            });
+#ifndef NDEBUG
+            for(const auto course: ordered_courses)
+            {
+                assert(ordered_courses.begin()!=ordered_courses.end() /*empty vector implies no loop*/);
+                if (option_order_courses==1)
+                    assert(all_courses[*ordered_courses.begin()].size()>=all_courses[course].size()/* biggest first*/);
+                else
+                    assert(all_courses[*ordered_courses.begin()].size()<=all_courses[course].size()/* smallest first*/);
+            }
+#endif // NDEBUG
+        }
     }
     enum Pref_Matching
     {
@@ -148,12 +176,13 @@ struct Scheduler
             return false;
 
 
-        for(const auto& c: all_courses)
+        for(const auto& c: ordered_courses)
         {
-            if (location.find(c.first)!=location.end()) // a set of residual courses will be better
+            if (location.find(c)!=location.end()) // a set of residual courses will be better
                 continue;
             if (option_check_forbidden)
             {
+                const auto &forbid=all_courses[c];
                 if ([&]()
             {
                 for(int room=0 ; room < max_rooms; room++)
@@ -162,7 +191,7 @@ struct Scheduler
                         if (found!=schedule.end())
                         {
                             Course same_time=found->second;
-                            if (c.second.find(same_time)!=c.second.end())
+                            if (forbid.find(same_time)!=forbid.end())
                                 return true;
                         }
                     }
@@ -170,10 +199,10 @@ struct Scheduler
                 }())
                 continue;
             }
-            add_course(c.first,r);
+            add_course(c,r);
             if (try_here(next(r)))
                 return true;
-            remove_course(c.first,r);
+            remove_course(c,r);
         }
 
         return false;
@@ -188,13 +217,15 @@ struct Scheduler
 
 
     bool option_check_forbidden=true;
+    int option_order_courses=1;
 
-    Schedule schedule={};
-    map<Course,Reservation> location={};
+    Schedule schedule= {};
+    map<Course,Reservation> location= {};
     const Preferences preferences;
     const Room max_rooms;
     const Timeslice max_timeslice;
-    map<Course,set<Course>> all_courses={};
+    map<Course,set<Course>> all_courses= {};
+    vector<Course> ordered_courses= {};
 
     friend ostream& operator<<(ostream& os, const Scheduler &s);
 
@@ -246,13 +277,29 @@ ostream& operator<<(ostream& os, const Scheduler &s)
     return os;
 }
 
-void try_one(Scheduler::Preferences && preferences_, Scheduler::Room max_rooms_, Scheduler::Timeslice max_timeslice_)
+struct Show_Duration
 {
-    Scheduler s(forward<Scheduler::Preferences >(preferences_), max_rooms_, max_timeslice_, true);
+    string name;
+    chrono::high_resolution_clock::time_point  before=std::chrono::high_resolution_clock::now();
+    Show_Duration(const char *ch) : name(ch){}
+    ~Show_Duration(){
+        auto duration=chrono::duration_cast<std::chrono::microseconds>(chrono::high_resolution_clock::now()-before);
+        cout << name << " duration : " << duration.count() << endl;
+    }
+};
+
+
+void try_one(Scheduler::Preferences && preferences_, Scheduler::Room max_rooms_, Scheduler::Timeslice max_timeslice_,int option_order_courses_)
+{
+    Scheduler s(forward<Scheduler::Preferences >(preferences_), max_rooms_, max_timeslice_, true,option_order_courses_);
+    {
+        Show_Duration show("simple build");
+        bool r=s.buid_schedule();
+    }
     bool r=s.buid_schedule();
 #ifndef NDEBUG
     {
-        Scheduler s2(forward<Scheduler::Preferences >(preferences_), max_rooms_, max_timeslice_, false);
+        Scheduler s2(forward<Scheduler::Preferences >(preferences_), max_rooms_, max_timeslice_, false,option_order_courses_);
         bool r2=s2.buid_schedule();
         assert(r2==r);
         if (r)
@@ -264,12 +311,13 @@ void try_one(Scheduler::Preferences && preferences_, Scheduler::Room max_rooms_,
     cout << s;
 }
 
-int main()
+void try_many(int option_order_courses_)
 {
+    Show_Duration show("total");
     cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << endl;
-    try_one({{0,{'A','B'}},{1,{'B','C'}},{2,{'C','D'}},{3,{'D','A'}}},2,2);
+    try_one({{0,{'A','B'}},{1,{'B','C'}},{2,{'C','D'}},{3,{'D','A'}}},2,2,option_order_courses_);
     cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << endl;
-    try_one({{0,{'A','B'}},{1,{'B','C'}},{2,{'C','D'}},{3,{'A','C'}}},2,2);
+    try_one({{0,{'A','B'}},{1,{'B','C'}},{2,{'C','D'}},{3,{'A','C'}}},2,2,option_order_courses_);
     cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << endl;
 
     std::default_random_engine generator;
@@ -292,11 +340,18 @@ int main()
         for(int w=10; w>2; w--) // try same preferences with increasing time constraints
         {
             Scheduler::Preferences temp=p;
-            try_one(std::move(temp),10,w);
+            try_one(std::move(temp),10,w,option_order_courses_);
             cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << endl;
         }
 
     }
+}
+int main()
+{
 
+    try_many(1); // decreasing order course with max constraint first
+    try_many(2); // increasing order course with min constraint first
+    try_many(0); // no order : alphabetical order
     return 0;
 }
+
