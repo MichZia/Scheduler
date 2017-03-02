@@ -26,7 +26,7 @@ struct Scheduler
     using Reservation = pair<Room,Timeslice>;
     using Schedule = map<Reservation,Course>;
 
-    Scheduler(Preferences&& preferences_, Room max_rooms_, Timeslice max_timeslice_,bool option_check_forbidden_,int option_order_courses_):
+    Scheduler(const Preferences& preferences_, Room max_rooms_, Timeslice max_timeslice_,bool option_check_forbidden_,int option_order_courses_):
         option_check_forbidden(option_check_forbidden_),
         option_order_courses(option_order_courses_),
         preferences(preferences_),
@@ -289,9 +289,9 @@ struct Show_Duration
 };
 
 
-void try_one(Scheduler::Preferences && preferences_, Scheduler::Room max_rooms_, Scheduler::Timeslice max_timeslice_,int option_order_courses_)
+void try_one(const Scheduler::Preferences & preferences_, Scheduler::Room max_rooms_, Scheduler::Timeslice max_timeslice_,int option_order_courses_)
 {
-    Scheduler s(forward<Scheduler::Preferences >(preferences_), max_rooms_, max_timeslice_, true,option_order_courses_);
+    Scheduler s(preferences_, max_rooms_, max_timeslice_, true,option_order_courses_);
     {
         Show_Duration show("simple build");
         bool r=s.buid_schedule();
@@ -299,7 +299,7 @@ void try_one(Scheduler::Preferences && preferences_, Scheduler::Room max_rooms_,
     bool r=s.buid_schedule();
 #ifndef NDEBUG
     {
-        Scheduler s2(forward<Scheduler::Preferences >(preferences_), max_rooms_, max_timeslice_, false,option_order_courses_);
+        Scheduler s2(preferences_, max_rooms_, max_timeslice_, false,option_order_courses_);
         bool r2=s2.buid_schedule();
         assert(r2==r);
         if (r)
