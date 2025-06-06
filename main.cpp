@@ -235,24 +235,23 @@ struct Scheduler
 ostream& operator<<(ostream& os, const Scheduler &s)
 {
 
-    cout << "student preferences:" << endl;
+    os << "student preferences:" << endl;
 
     for(const auto& p : s.preferences)
     {
-        cout << "student #" << p.first << "=> courses: ";
+        os << "student #" << p.first << "=> courses: ";
         for(const auto& c : p.second)
         {
-            cout << c << " ";
+            os << c << " ";
         }
-        cout << endl;
+        os << endl;
     }
-    cout << s.max_rooms << " rooms, " << s.max_timeslice << " timeslices" << endl;
+    os << s.max_rooms << " rooms, " << s.max_timeslice << " timeslices" << endl;
     if (s.all_is_ok()==Scheduler::matched)
     {
-        cout << "schedule found:" << endl;
+        os << "schedule found:" << endl;
         for(int r=0 ; r < s.max_rooms; r++)
         {
-
             os << "room #" << r << " ";
             for(int t=0 ; t <  s.max_timeslice ; t++ )
             {
@@ -272,7 +271,7 @@ ostream& operator<<(ostream& os, const Scheduler &s)
     }
     else
     {
-        cout << "no schedule found" << endl;
+        os << "no schedule found" << endl;
     }
     return os;
 }
